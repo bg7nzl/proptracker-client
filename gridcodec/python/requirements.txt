@@ -1,0 +1,2 @@
+# GridCodec Python — no runtime deps for the library.
+# Tests use stdlib only (time, random, sys, os).

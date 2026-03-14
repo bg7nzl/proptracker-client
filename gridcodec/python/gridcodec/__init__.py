@@ -1,0 +1,36 @@
+# GridCodec — Maidenhead propagation matrix codec (Python, full-featured)
+from .codec import (
+    GC_FIELDS,
+    GC_SQUARES,
+    GC_GRIDS,
+    GC_VERSION,
+    GC_ERR_INVALID,
+    GC_ERR_OVERFLOW,
+    GC_ERR_FORMAT,
+    GC_ERR_CAPACITY,
+    GridCodecMatrix,
+    field_index,
+    field_name,
+    grid_index,
+    grid_name,
+    grid_to_field,
+    grid_to_square,
+)
+
+__all__ = [
+    "GC_FIELDS",
+    "GC_SQUARES",
+    "GC_GRIDS",
+    "GC_VERSION",
+    "GC_ERR_INVALID",
+    "GC_ERR_OVERFLOW",
+    "GC_ERR_FORMAT",
+    "GC_ERR_CAPACITY",
+    "GridCodecMatrix",
+    "field_index",
+    "field_name",
+    "grid_index",
+    "grid_name",
+    "grid_to_field",
+    "grid_to_square",
+]
