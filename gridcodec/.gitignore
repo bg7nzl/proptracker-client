@@ -1,0 +1,80 @@
+# ============================================================
+# GridCodec — multi-language .gitignore
+# ============================================================
+
+# ---------- C / C++ ----------
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.exe
+*.out
+*.dSYM/
+
+# Test binaries (built by Makefile)
+c/test_gridcodec
+c/test_embedded
+c/test_gridcodec_dbg
+c/test_embedded_dbg
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.eggs/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------- JavaScript / TypeScript ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+*.tsbuildinfo
+
+# Build output
+js/dist/
+js/build/
+
+# ---------- Java ----------
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+java/gridcodec/*.class
+
+# ---------- WebAssembly ----------
+*.wasm
+*.wasm.map
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------- Misc ----------
+*.log
+core
+core.*
